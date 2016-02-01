@@ -728,7 +728,8 @@ int style AlertDialog_AppCompat 0x7f0b0042
 int style AlertDialog_AppCompat_Light 0x7f0b0043
 int style Animation_AppCompat_Dialog 0x7f0b0049
 int style Animation_AppCompat_DropDownUp 0x7f0b004a
-int style AppBaseTheme 0x7f0b0143
+int style AppBaseTheme 0x7f0b0141
+int style AppTheme 0x7f0b0142
 int style Base_AlertDialog_AppCompat 0x7f0b00cc
 int style Base_AlertDialog_AppCompat_Light 0x7f0b00cd
 int style Base_Animation_AppCompat_Dialog 0x7f0b00c8
@@ -868,8 +869,8 @@ int style Base_Widget_AppCompat_TextView_SpinnerItem 0x7f0b00c4
 int style Base_Widget_AppCompat_Toolbar 0x7f0b00ad
 int style Base_Widget_AppCompat_Toolbar_Button_Navigation 0x7f0b00ae
 int style Base_Widget_Design_TabLayout 0x7f0b0135
-int style MyCustomTabLayout 0x7f0b0141
-int style MyCustomTabTextAppearance 0x7f0b0142
+int style MyCustomTabLayout 0x7f0b0143
+int style MyCustomTabTextAppearance 0x7f0b0144
 int style Platform_AppCompat 0x7f0b0109
 int style Platform_AppCompat_Light 0x7f0b010a
 int style Platform_ThemeOverlay_AppCompat 0x7f0b011d

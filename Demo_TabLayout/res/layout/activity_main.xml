@@ -16,13 +16,12 @@
             style="@style/MyCustomTabLayout"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:background="#1FBCD2"
+            android:background="#eee"
             app:tabGravity="center"
-            app:tabIndicatorColor="#FFff00ff"
+            app:tabIndicatorColor="#FFff0000"
             app:tabMode="scrollable"
-            app:tabSelectedTextColor="#FF00FF00"
-            app:tabTextColor="#FF000000" />
-        <!--  -->
+            app:tabSelectedTextColor="#FFff0000"
+            app:tabTextColor="#FF666666" />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/pager"
