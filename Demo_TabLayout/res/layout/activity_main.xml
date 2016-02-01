@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#1FBCD2"
+            app:tabGravity="center"
+            app:tabIndicatorColor="#FFff00ff"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#FF00FF00"
+            app:tabTextColor="#FF000000" />
+        <!--  -->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+
+</RelativeLayout>
